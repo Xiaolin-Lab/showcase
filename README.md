@@ -6,6 +6,7 @@
 
 展示 Xiaolin Lab 社区成员正在创造的项目、产品与个人网站。
 
+
 **发现有趣的作品，也发现作品背后的创造者。**
 
 </div>
@@ -60,6 +61,12 @@
 已经是 Xiaolin Lab 成员？
 
 你可以向 Showcase 提交自己的作品。
+
+<div align="center">
+
+[![Submit Project](https://img.shields.io/badge/🚀_SUBMIT_PROJECT-Share_Your_Work-7C3AED?style=for-the-badge)](https://github.com/Xiaolin-Lab/showcase/issues/new?template=submit-project.yml)
+
+</div>
 
 ### 项目需要包含
 
