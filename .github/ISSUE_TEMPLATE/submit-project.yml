@@ -1,0 +1,96 @@
+name: "🚀 Submit a Project"
+description: "Share your project, website, product or creative work with Xiaolin Lab."
+title: "[Showcase] "
+labels: []
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        # 🚀 Submit Your Project
+
+        Thanks for sharing your work with **Xiaolin Lab**!
+
+        This form is for Xiaolin Lab members who want to showcase
+        their websites, open-source projects, AI projects, apps,
+        developer tools or other creative work.
+
+  - type: input
+    id: project-name
+    attributes:
+      label: "Project Name"
+      description: "What is the name of your project?"
+      placeholder: "My Awesome Project"
+    validations:
+      required: true
+
+  - type: input
+    id: creator
+    attributes:
+      label: "Creator"
+      description: "Your GitHub username."
+      placeholder: "@your-username"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Project Description"
+      description: "Tell us briefly what your project does."
+      placeholder: "Describe your project..."
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: "Website / Demo"
+      description: "Link to your website or live demo."
+      placeholder: "https://example.com"
+
+  - type: input
+    id: repository
+    attributes:
+      label: "GitHub Repository"
+      description: "Link to the project's GitHub repository."
+      placeholder: "https://github.com/username/project"
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Category"
+      description: "Choose the category that best describes your project."
+      options:
+        - AI / AI Agent
+        - Personal Website
+        - Web Development
+        - Open Source
+        - App Development
+        - Developer Tool
+        - UI / Design
+        - Indie Product
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshot"
+      description: "Drag and drop screenshots of your project here."
+      placeholder: "Drag your project screenshots here..."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional Information"
+      description: "Anything else you'd like the community to know?"
+
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: "Submission Agreement"
+      options:
+        - label: "I confirm that this is my own project or I have permission to share it."
+          required: true
